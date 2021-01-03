@@ -1,0 +1,7 @@
+phases:
+  install:
+    commands:
+      - apt-get install terraform
+  build:
+    commands:
+      - terraform fmt -check
