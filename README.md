@@ -1,10 +1,10 @@
-# terraform-s3-bucket
+# terraform-simple-s3-bucket-module
 
 ## Example Usage
 
 ```terraform
-module "terraform-s3-bucket" {
-  source = "../terraform-s3-bucket"
+module "terraform-simple-s3-bucket-module" {
+  source = "github.com/solsglasses/terraform-simple-s3-bucket-module.git"
 
   bucket_prefix = "foo"
   logging = {
